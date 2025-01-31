@@ -1,6 +1,6 @@
 [build-system]
 requires = ["setuptools>=42", "wheel", "setuptools_scm[toml]>=3.4",
-             "ninst @ git+https://github.com/OliJimbo/NInst/NInst.git@master", "numpy>=1.14", "miutil[cuda]>=0.4.0",
+             "ninst @ git+https://github.com/OliJimbo/NInst.git@master", "numpy>=1.14", "miutil[cuda]>=0.4.0",
             "scikit-build>=0.11.0", "cmake>=3.18", "ninja", 'wrapt']
 
 [tool.setuptools_scm]
